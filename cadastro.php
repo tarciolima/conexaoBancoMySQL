@@ -3,7 +3,7 @@
 include './conexao.php';
 
 $query_select = "SELECT login FROM usuarios WHERE login = '$login'";
-$select = mysqli_query($query_select,$connect);
+$select = mysqli_query($query_select, $connect);
 $array = mysqli_fetch_array($select);
 $logarray = $array['login'];
  
