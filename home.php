@@ -19,5 +19,3 @@
 <?php
 
 include './conexao.php';
-
-echo "<table>";
